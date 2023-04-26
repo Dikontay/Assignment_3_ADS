@@ -1,5 +1,9 @@
+import java.util.Hashtable;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+       String s = "Yernazar";
+        System.out.println(s.hashCode());
+        System.out.println(MyHashTable.hash(s));
     }
 }
